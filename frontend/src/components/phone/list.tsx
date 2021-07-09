@@ -24,7 +24,6 @@ const PhoneList = () => {
                 hoverable
                 cover={<Image
                   style={{objectFit: 'cover'}}
-                  width={250}
                   height={250}
                   preview={false}
                   src={phoneListStore.getImageUrl(value)}
